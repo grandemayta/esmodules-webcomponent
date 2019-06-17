@@ -10,7 +10,7 @@ This web application was built without the help of libraries and frameworks. I j
 
 ## Demo
 
-Link [demo](http://grandemayta.herokuapp.com/js/esmodules-github-wc/)
+Link [demo](https://grandemayta.herokuapp.com/js/esmodules-github-wc/)
 
 ## Browsers support
 
