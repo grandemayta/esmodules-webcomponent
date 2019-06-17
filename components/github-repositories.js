@@ -1,6 +1,6 @@
 import http from '../services/http-wrapper.js';
 
-export default class GithubRepositories extends HTMLElement {
+export class GithubRepositories extends HTMLElement {
   static get observedAttributes() {
     return ['nickname'];
   }
@@ -22,7 +22,7 @@ export default class GithubRepositories extends HTMLElement {
   }
 
   repositoryTpl(repo) {
-    const { name, url } = repo;
+    const { name, html_url: url } = repo;
     return `
       <a href="${url}" target="_blank">${name}</a>
     `;
